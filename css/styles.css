@@ -278,10 +278,14 @@ img {
 .team-list{
     display: flex;
     gap: 30px;
+
+    background-color: var(--white-color);
 }
 
 
-.team-item{}
+.team-item{
+    padding-bottom: 30px;
+}
 .team-pic{}
 
 .team-name{
@@ -294,7 +298,7 @@ img {
 }
 .team-post{
     margin-bottom: 0;
-    padding-top: 10px;
+    margin-top: 10px;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -310,11 +314,14 @@ img {
     justify-content: center;
     gap: 8px;
     padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 50px;
 }
 
 .filter-item{}
 
 .filter-btn{
+    padding: 6px 22px;
 
     font-family: inherit;
     font-weight: 500;
@@ -341,16 +348,18 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .project-item{}
 .project-pic{
-    padding-bottom: 20px;
 }
 
+.project-name{
+    margin: 20px 24px;
+}
 .project-title{
-    padding-bottom: 4px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 1;
@@ -366,12 +375,13 @@ img {
 
 /* Footer */
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--footer-background-color);
-    min-width: 1200px;
+    
 }
 .footer-logo{
     display: inline-block;
-    padding-top: 60px;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -383,19 +393,26 @@ img {
 
 /* Address */
 .address{
-    padding-top: 28px;
-    padding-bottom: 60px;
+    margin-top: 28px;
     font-style: normal;
 }
 
 .address-name{
+    margin-bottom: 12px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--white-color);
 }
 .address-list{}
-.address-item{}
+
+.address-item{
+    margin-bottom: 12px;
+}
+
+.address-link:last-child{
+    margin-bottom: 0;
+}
 
 .address-link{
     font-weight: 400;
